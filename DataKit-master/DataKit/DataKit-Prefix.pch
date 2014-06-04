@@ -1,0 +1,16 @@
+//
+// Prefix header for all source files of the 'DataKit' target in the 'DataKit' project
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// Categories
+#import "NSError+DataKit.h"
+#import "NSData+DataKit.h"
+#import "NSString+DataKit.h"
+
+// Macros
+#define DKSynthesize(x) @synthesize x = x##_;
+#endif

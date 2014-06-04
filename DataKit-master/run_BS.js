@@ -1,0 +1,1 @@
+require('datakit').run({});
