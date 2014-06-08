@@ -50,5 +50,5 @@ exports.index = function (req, res) {
   var paramDateValidate = validator.isDate(param)
   var time = Date.parse(param)
 
-  res.json({ 'time': time,'validDate': paramDateValidate,'random': result, "param" : param, "username": req.user, "session": req.session, "user": req.user.id, "sessionId": req.sessionID})
+  res.json({ 'time': time,'validDate': paramDateValidate,'random': result, "param" : param, "username": req.user, "session": req.session, "user": req.user.id, "sessionId": req.sessionID, "hi": "hi"})
 }
